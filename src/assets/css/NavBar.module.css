@@ -1,0 +1,51 @@
+/* NavBar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Adjusts spacing between items */
+  align-items: center;
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center; /* Center the links vertically */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.navbar a.active {
+  background-color: #555;
+  font-weight: bold;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width:10%;
+  margin-right: 2%;
+}
+
+.logout-btn:hover {
+  background-color: #0056b3;
+}
+.title{
+  font-size: 10px;
+}

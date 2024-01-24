@@ -1,0 +1,31 @@
+.form {
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(228, 241, 244);
+    border: 1px solid #823636;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    width: 30%;
+    color: #823636;
+    margin-left: 30%;
+    margin-top:-50px ;   
+}
+.input{
+    width: 90%;
+}
+.x{
+  font-size: 10px;
+    width: fit-content;
+    padding: 10px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+  }
+  .x:hover{
+    background-color: #c0cbed;
+  }
+  button{
+    width: 90%;
+  }
